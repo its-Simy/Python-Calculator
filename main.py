@@ -6,16 +6,16 @@ import PySimpleGUI as ui
 
 
 layout = [
-    [ui.Text("Choose an operation")]
-    #[ui.Button("+")]
-    #[ui.Button("-")]
-    #[ui.Button("/")]
-    #[ui.Button("*")]
+    [ui.Text("Choose an operation")],
+    [ui.Button("+")],
+    [ui.Button("-")],
+    [ui.Button("/")],
+    [ui.Button("*")],
     [ui.Button("Off")]
 ]
 
 #create the window
-window = ui.Window("Demo", layout)
+window = ui.Window("Calculator", layout)
 
 #create an event loop, so if something happens, then something else has to happen
 while True:
